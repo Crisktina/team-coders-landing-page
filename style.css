@@ -143,6 +143,8 @@ h2 {
 a:hover {
     color: #ffca41;
 }
+
+
 /* -------SECTION PROFILE styles---------- */
 
 .profile-image-pricipal {
@@ -240,6 +242,22 @@ label {
     border-radius: 8px;
     margin-bottom: 19px;
     margin-top: 6px;
+    padding: 15px;
+    overflow: hidden;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #cf6c80;
+}
+
+.formBox:hover {
+    box-shadow: 0px 0px 6px 0px #ff7f99;
+}
+
+.formBox:invalid {
+    box-shadow: 0 0 10px rgba(255, 4, 4, 0.2);
+    border: solid 2px rgba(255, 4, 4, 0.5);
 }
 
 .formMessage {
@@ -247,21 +265,56 @@ label {
 }
 
 .formCheckbox {
-    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 .txtService {
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin-bottom: 20px;
+    margin-top: 60px;
 }
 
-.checkbox {
-    margin-bottom: 32px;
-    color: ff7f99;
+.checkboxLabel {
+    color: #ff7f99;
+    margin-right: 25px;
 }
+
+.radioCheckbox {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: rgba(255, 202, 65, 0.1);
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ffca41;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.radioCheckbox:hover {
+    border: 3px solid #ffca41;
+}
+
+.radioCheckbox:checked {
+    background-color: #ff7f99;
+}
+
+.privatPrivacySpace {
+    margin: 60px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+
 /*---------------article---------------*/
 
-article  {
+article {
     display: flex;
     flex-direction: column;
     align-items: center;

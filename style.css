@@ -67,6 +67,22 @@ nav {
     color: #ffffff;
 }
 
+/*---------------------profile yen------------------*/
+
+.profile-image-pricipal {
+    border-radius: 300px;
+    overflow: hidden;
+    width: 572px;
+    height: 572px;
+}
+
+.h2-profile {
+    font-size: 30px;
+}
+
+.padiing-text {
+    margin-block-end: 30px;
+  }
 
 /* -------SECTION styles---------- */
 

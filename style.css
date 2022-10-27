@@ -119,6 +119,7 @@ h2 {
     font-weight: 400;
     font-size: 28px;
     line-height: 40px;
+    margin: 20px 0;
 }
 
 .yellow-button {
@@ -137,6 +138,13 @@ h2 {
 
 /* -------SECTION PROFILE styles---------- */
 
+.profile-image-pricipal {
+    border-radius: 300px;
+    overflow: hidden;
+    width: 572px;
+    height: 572px;
+}
+
 .buttons-principal-profile {
     display: flex;
     flex-direction: row;
@@ -147,22 +155,8 @@ h2 {
     margin-right: 35px;
 }
 
-
-/*---------------------profile yen------------------*/
-
-.profile-image-pricipal {
-    border-radius: 300px;
-    overflow: hidden;
-    width: 572px;
-    height: 572px;
-}
-
-.h2-profile {
-    font-size: 30px;
-}
-
-.padiing-text {
-    margin-block-end: 30px;
+.text-profile {
+    text-align: justify;
 }
 
 
@@ -245,8 +239,6 @@ label {
     height: 137px;
 }
 
-/*---------parte checkbox---------------*/
-
 .formCheckbox {
     margin-top: 32px;
 }
@@ -256,8 +248,7 @@ label {
     margin-bottom: 32px;
 }
 
-.checkbox{
+.checkbox {
     margin-bottom: 32px;
-    color: #ff7f99
+    color: ff7f99;
 }
-

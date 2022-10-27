@@ -119,6 +119,7 @@ h2 {
     font-weight: 400;
     font-size: 28px;
     line-height: 40px;
+    margin: 20px 0;
 }
 
 .yellow-button {
@@ -137,6 +138,13 @@ h2 {
 
 /* -------SECTION PROFILE styles---------- */
 
+.profile-image-pricipal {
+    border-radius: 300px;
+    overflow: hidden;
+    width: 572px;
+    height: 572px;
+}
+
 .buttons-principal-profile {
     display: flex;
     flex-direction: row;
@@ -145,24 +153,6 @@ h2 {
 
 .linkedin-link {
     margin-right: 35px;
-}
-
-
-/*---------------------profile yen------------------*/
-
-.profile-image-pricipal {
-    border-radius: 300px;
-    overflow: hidden;
-    width: 572px;
-    height: 572px;
-}
-
-.h2-profile {
-    font-size: 30px;
-}
-
-.padiing-text {
-    margin-block-end: 30px;
 }
 
 
@@ -251,4 +241,29 @@ label {
 
 .txtService {
     margin-bottom: 32px;
+}
+
+
+/*----------Po´s profile----------*/
+
+.img-large {
+    width: 572px;
+    height: 572px;
+    border-radius: 300px;
+    overflow: hidden;
+}
+
+.text-po {
+    font-weight: 500;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.profile-links-po {
+    display: flex;
+    align-items: center;
+}
+
+.add-left-margin {
+    margin-left: 20px;
 }

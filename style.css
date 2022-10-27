@@ -245,10 +245,19 @@ label {
     height: 137px;
 }
 
+/*---------parte checkbox---------------*/
+
 .formCheckbox {
-    margin-top: 72px;
+    margin-top: 32px;
 }
 
 .txtService {
+    margin-top: 32px;
     margin-bottom: 32px;
 }
+
+.checkbox{
+    margin-bottom: 32px;
+    color: #ff7f99
+}
+

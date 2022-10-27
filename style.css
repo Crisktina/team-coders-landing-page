@@ -17,6 +17,10 @@ body {
     margin-right: auto;
 }
 
+a {
+    cursor: pointer;
+}
+
 
 /* -------NAV styles---------- */
 
@@ -69,24 +73,6 @@ nav {
 }
 
 
-/*---------------------profile yen------------------*/
-
-.profile-image-pricipal {
-    border-radius: 300px;
-    overflow: hidden;
-    width: 572px;
-    height: 572px;
-}
-
-.h2-profile {
-    font-size: 30px;
-}
-
-.padiing-text {
-    margin-block-end: 30px;
-}
-
-
 /* -------SECTION styles---------- */
 
 section {
@@ -116,7 +102,6 @@ section {
     display: flex;
     flex-direction: column;
     width: 50%;
-    /* width: 598px; */
     padding-left: 98px;
 }
 
@@ -152,13 +137,6 @@ h2 {
 
 /* -------SECTION PROFILE styles---------- */
 
-.principal-img-principal {
-    border-radius: 300px;
-    overflow: hidden;
-    width: 572px;
-    height: 572px;
-}
-
 .buttons-principal-profile {
     display: flex;
     flex-direction: row;
@@ -167,6 +145,24 @@ h2 {
 
 .linkedin-link {
     margin-right: 35px;
+}
+
+
+/*---------------------profile yen------------------*/
+
+.profile-image-pricipal {
+    border-radius: 300px;
+    overflow: hidden;
+    width: 572px;
+    height: 572px;
+}
+
+.h2-profile {
+    font-size: 30px;
+}
+
+.padiing-text {
+    margin-block-end: 30px;
 }
 
 

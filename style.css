@@ -132,10 +132,13 @@ h2 {
     color: #ffffff;
     border: none;
     width: 212px;
-    height: 68px;
+    height: 48px;
     cursor: pointer;
 }
 
+.yellow-button:hover {
+    background: #ff7f99;
+}
 
 /* -------SECTION PROFILE styles---------- */
 

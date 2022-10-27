@@ -140,6 +140,9 @@ h2 {
     background: #ff7f99;
 }
 
+a:hover {
+    color: #ffca41;
+}
 /* -------SECTION PROFILE styles---------- */
 
 .profile-image-pricipal {

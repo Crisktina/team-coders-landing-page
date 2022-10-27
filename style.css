@@ -45,6 +45,7 @@ nav {
     border-radius: 90px;
     border: 1px solid #ffca41;
     background: #ff9593;
+    cursor: pointer;
 }
 
 .text-link {
@@ -67,6 +68,7 @@ nav {
     color: #ffffff;
 }
 
+
 /*---------------------profile yen------------------*/
 
 .profile-image-pricipal {
@@ -82,7 +84,8 @@ nav {
 
 .padiing-text {
     margin-block-end: 30px;
-  }
+}
+
 
 /* -------SECTION styles---------- */
 

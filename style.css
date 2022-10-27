@@ -236,34 +236,15 @@ label {
 }
 
 .formCheckbox {
-    margin-top: 72px;
+    margin-top: 32px;
 }
 
 .txtService {
+    margin-top: 32px;
     margin-bottom: 32px;
 }
 
-
-/*----------Po´s profile----------*/
-
-.img-large {
-    width: 572px;
-    height: 572px;
-    border-radius: 300px;
-    overflow: hidden;
-}
-
-.text-po {
-    font-weight: 500;
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-.profile-links-po {
-    display: flex;
-    align-items: center;
-}
-
-.add-left-margin {
-    margin-left: 20px;
+.checkbox {
+    margin-bottom: 32px;
+    color: ff7f99;
 }

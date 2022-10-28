@@ -275,6 +275,7 @@ label {
 
 .formMessage {
     height: 137px;
+    resize:none;
 }
 
 .formCheckbox {

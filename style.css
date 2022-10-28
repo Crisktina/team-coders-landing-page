@@ -52,6 +52,11 @@ nav {
     cursor: pointer;
 }
 
+.button-contacto:hover {
+    background:#ffca41;
+    font-weight: 400;
+}
+
 .text-link {
     font-style: normal;
     font-weight: 300;
@@ -158,6 +163,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     margin-top: 47px;
+    align-items: center;
 }
 
 .linkedin-link {
@@ -194,6 +200,10 @@ footer {
     overflow: hidden;
 }
 
+.profile-img:hover {
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+
 h3 {
     margin-top: 20px;
     font-style: normal;
@@ -217,7 +227,10 @@ p {
     margin-top: 9px;
 }
 
-
+.linkedin:hover {
+    width: 54px;
+    height: 54px;
+}
 /* -------CONTACT styles---------- */
 
 form {
